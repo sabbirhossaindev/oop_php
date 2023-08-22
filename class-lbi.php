@@ -13,7 +13,7 @@ class Courses{
     }
 
     function get_course_details(){
-        return "Your course name is". $this->course_name ." course fee ".$this->course_fee ."course details" .$this->course_details . " and course duration is ". $this->course_duration .".";
+        return "Your course name is ". $this->course_name .". Course Fee ".$this->course_fee ."course details " .$this->course_details . " and course duration is ". $this->course_duration .".";
     }
 }
 
