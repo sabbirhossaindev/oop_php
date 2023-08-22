@@ -1,5 +1,5 @@
 <?php
-include('class-lbi.php');
+include('class-config.php');
 
 $job_placement_course = new Courses();
 $job_placement_course->set_course_details("Wordpress", "20,000", "online course", "6'th months");
