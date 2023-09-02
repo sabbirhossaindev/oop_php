@@ -1,6 +1,6 @@
 <?php
 class Courses{
-    var $course_name;
+    var $course_name; // var is property
     var $course_fee;
     var $course_details;
     var $course_duration;
