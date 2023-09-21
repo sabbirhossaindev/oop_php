@@ -1,9 +1,9 @@
 <?php
 class Constructor{
-    var $course_name;
-    var $course_fee;
-    var $course_details;
-    var $course_duration;
+    public $course_name;
+    public $course_fee;
+    public $course_details;
+    public $course_duration;
 
     function __construct($name, $fee, $details, $duration){
         $this->course_name=$name;
